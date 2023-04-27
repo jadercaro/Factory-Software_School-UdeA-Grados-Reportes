@@ -1,0 +1,260 @@
+header{
+    position: absolute;
+    width: 1440px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    background: #33691E;
+    border: 1px solid #000000;
+}
+
+.panel-lateral{
+    position: absolute;
+    width: 502px; 
+    height: 737px;
+    left: 0px;
+    top: 67px;
+    background: linear-gradient(90deg, rgba(51, 105, 30, 0.5) 0%, rgba(228, 228, 217, 0.5) 51.04%);
+}
+
+
+.panel-principal{
+    position: absolute;
+    width: 857px;
+    height: 608px;
+    left: 560px;
+    top: 130px;
+}
+
+.panel-informacion{
+    position: absolute;
+    width: 483px;
+    height: 152px;
+    left: 591px;
+    top: 170px;
+}
+.panel-izquierdo{
+    position: absolute;
+    width: 938px;
+    height: 735px;
+    left: 502px;
+    top: 65px;
+    background: #FFFFFF;
+}
+
+.mensaje1{
+    position: absolute;
+    left: 74px;
+    top: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    padding: 10px;
+    color: #33691E;
+}
+
+.mensaje2{
+    position: absolute;
+    left: 74px;
+    top: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px;
+    color: #33691E;
+}
+
+.mensaje3{
+    position: absolute;
+    width: 349px;
+    height: 54px;
+    left: 74px;
+    top: 300px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #33691E;
+}
+
+.birrete{
+    position: absolute;
+    left: 18px;
+    top: 1px;
+    width: 94px;
+    height: 74px;
+    padding: 10px;
+}
+
+.logo-inferior{
+    position: absolute;
+    width: 124px;
+    height: 159px;
+    left: 189px;
+    top: 550px;
+}
+.requisitos-grado{
+    position: absolute;
+    top:70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px;
+}
+
+.fecha{
+    position: absolute;
+    top:86px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    padding: 10px;
+}
+.nombre{
+    position: absolute;
+    top: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    padding: 10px;
+}
+.carrera{
+    position: absolute;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    padding: 10px;
+}
+.text-requisitos{
+    position: absolute;
+    top: 235px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px;   
+}
+.materias-obligatorias{
+    position: absolute;
+    top: 290px;
+    font-family:'Inter';
+    padding: 4px;
+    background:linear-gradient(90deg, #215F00 0%, #E4E4D9 100%);
+    width: 300px;
+    color: white;
+}
+.lista-ppal{
+    position: absolute;    
+    width: 260px;
+    height: 140px;
+    left: -30px;
+}
+
+.materias-electivas{
+    position: absolute;
+    top: 325px;
+    font-family:'Inter';
+    padding: 4px;
+    background:linear-gradient(90deg, #215F00 0%, #E4E4D9 100%);
+    width: 300px;
+    color: white;
+}
+
+.materias-cursando{
+    position: absolute;
+    top: 360px;
+    font-family:'Inter';
+    padding: 4px;
+    background:linear-gradient(90deg, #215F00 0%, #E4E4D9 100%);
+    width: 300px;
+    color: white;
+}
+.PYS-biblioteca{
+    position: absolute;
+    top: 395px;
+    font-family:'Inter';
+    padding: 4px;
+    background:linear-gradient(90deg, #215F00 0%, #E4E4D9 100%);
+    width: 300px;
+    color: white;
+}
+
+.PYS-cartera{
+    position: absolute;
+    top: 430px;
+    font-family:'Inter';
+    padding: 4px;
+    background:linear-gradient(90deg, #215F00 0%, #E4E4D9 100%);
+    width: 300px;
+    color: white;
+}
+
+.PYS-und-academica{
+    position: absolute;
+    top: 465px;
+    font-family:'Inter';
+    padding: 4px;
+    background:linear-gradient(90deg, #215F00 0%, #E4E4D9 100%);
+    width: 300px;
+    color: white;
+}
+.link-mat-oblig{
+    position: absolute;
+    top:292px;
+    left:350px;
+}
+
+.link-mat-elect{
+    position: absolute;
+    top:324px;
+    left:350px;
+}
+
+.link-mat-cur{
+    position: absolute;
+    top:361px;
+    left: 350px;
+}
+
+.link-pys-bibl{
+    position: absolute;
+    top:398px;
+    left: 350px;
+}
+
+.link-pys-cart{
+    position: absolute;
+    top: 431px;
+    left: 350px;
+}
+
+.link-pys-und-acad{
+    position: absolute;
+    top:468px;
+    left: 350px;
+}
+
+
+
+
+
+
+
+
+

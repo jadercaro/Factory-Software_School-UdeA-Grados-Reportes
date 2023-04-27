@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="Fronted.css" >
+        <script>
+            function abrirVentana() {
+              // Abre una nueva ventana con la URL especificada
+              window.open('https://www.udea.edu.co', '_blank', 'width=400,height=300');}
+            
+            //obtiene la hora exacta de ingreso
+            function obtenerFechaHoraIngreso() {
+            var fecha = new Date();
+            var dia = fecha.getDate();
+            var mes = fecha.getMonth() + 1;
+            var anio = fecha.getFullYear();
+            var hora = fecha.getHours();
+            var minutos = fecha.getMinutes();
+            var segundos = fecha.getSeconds();
+            var fechaHoraIngreso = dia + "/" + mes + "/" + anio + " " + hora + ":" + minutos + ":" + segundos;
+            document.getElementById("fechaHoraIngreso").innerHTML = fechaHoraIngreso;
+            }
+        </script>
+    </head>
+    <body onload="obtenerFechaHoraIngreso()">
+        <header>
+        </header>
+        <div class="Panel-izquierda">
+            <div class="panel-lateral">
+                <h1 class="mensaje1"><strong>¡BIENVENIDO!</strong> getNameStudent()</h1>
+                <h1 class="mensaje2">Estos son los requisitos faltantes para iniciar tu proceso de graduación del alma mater de los antioqueños. </h1>
+                <h1 class="mensaje3"><strong>¡ÁNIMOOOOOO!</strong></h1>
+                <img class="logo-inferior" src="/logosimbolo-vertical.png" alt="logo-inferior">
+            </div>
+        </div>
+        <div class="panel-principal">
+            <img class="birrete" src="/birrete.jpg" alt="birrete"> 
+            <div class="panel-datos">
+                <h1 class="requisitos-grado">REQUISITOS PARA GRADOS</h1>
+                <h1 class="fecha">Fecha: <span id="fechaHoraIngreso"></span></h1>
+                <h3 class="nombre"><strong>Nombre: </strong> getNameStudent() </h3>
+                <h3 class="carrera"><strong>Programa académico: </strong> getIdCarrera() getNameCarrera() getStatus() </h3>
+                <h1 class="text-requisitos">REQUISITOS:</h1>
+                <d1 class="lista-ppal">
+                    <dd class="materias-obligatorias"> Materias obligatorias</dd>
+                    <dd class="materias-electivas">Materias electivas</dd>
+                    <dd class="materias-cursando">Materias que esta cursando</dd>
+                    <dd class="PYS-biblioteca">Paz y salvo biblioteca</dd>
+                    <dd class="PYS-cartera">Paz y salvo cartera</dd>
+                    <dd class="PYS-und-academica">Paz y salvo unidad académica</dd>
+                </d1>
+                <d1>
+                    <a class="link-mat-oblig" href="#" onclick="abrirVentana();">Ver más</a>
+                    <a class="link-mat-elect" href="#" onclick="abrirVentana();">Ver más</a>
+                    <a class="link-mat-cur" href="#" onclick="abrirVentana();">Ver más</a>
+                    <a class="link-pys-bibl" href="#" onclick="abrirVentana();">Ver más</a>
+                    <a class="link-pys-cart" href="#" onclick="abrirVentana();">Ver más</a>
+                    <a class="link-pys-und-acad" href="#" onclick="abrirVentana();">Ver más</a>
+                </d1>
+            </div>
+        </div>
+    
+    </body>
+</html>
